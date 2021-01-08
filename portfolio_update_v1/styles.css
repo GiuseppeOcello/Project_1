@@ -186,7 +186,7 @@ a.social:hover {
 /* Styling for experience.html*/
 
 header#experience {
-  background: url('images/sea_towage.jpg') no-repeat center ;
+  background: url('images/sea_towage.jpg') repeat center ;
 }
 .experience {
   max-width: 1500px;
@@ -198,11 +198,17 @@ span {
 /* Styling for contacts.html*/
 
 header#contacts {
-  background: url('images/old_port_cranes.jpg') center;
+  background: url('images/sea_operation.jpg') center;
 }
 .contacts {
   max-width: 800px;
 }
+
+/* Styling for pages other than main */
+
+.tag#pages {
+  margin-bottom: 150px;
+  }
 
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
